@@ -15,19 +15,19 @@ public class Ctverec extends Tvar {
 
 
     @Override
-    public void nakresli(PrintStream out) {
-        nakresliHorizontalniCaru(out);
+    public void nakreslit(PrintStream out) {
+        nakreslitHorizontalniCaru(out);
         for (int i = 0; i < delkaStrany - 2; i++) {
-            nakresliVertikalniCary(out);
+            nakreslitVertikalniCary(out);
         }
-        nakresliHorizontalniCaru(out);
+        nakreslitHorizontalniCaru(out);
     }
 
-    private void nakresliHorizontalniCaru(PrintStream out) {
+    private void nakreslitHorizontalniCaru(PrintStream out) {
         out.println("******");
     }
 
-    private void nakresliVertikalniCary(PrintStream out) {
+    private void nakreslitVertikalniCary(PrintStream out) {
         out.print('*');
         for (int i = 0; i < delkaStrany - 2; i++) {
             out.print(' ');

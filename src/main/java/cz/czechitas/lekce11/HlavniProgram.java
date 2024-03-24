@@ -22,12 +22,12 @@ public class HlavniProgram implements Runnable {
      */
     @Override
     public void run() {
-        nakresliTvar(new Ctverec());
-        nakresliTvar(new Trojuhelnik());
+        nakreslitTvar(new Ctverec());
+        nakreslitTvar(new Trojuhelnik());
     }
 
-    private void nakresliTvar(Tvar tvar) {
-        tvar.nakresli();
+    private void nakreslitTvar(Tvar tvar) {
+        tvar.nakreslit();
     }
 
 }

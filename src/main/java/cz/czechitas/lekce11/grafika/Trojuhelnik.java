@@ -21,19 +21,19 @@ public class Trojuhelnik extends Tvar {
 
 
     @Override
-    public void nakresli(PrintStream out) {
+    public void nakreslit(PrintStream out) {
         out.print(" ".repeat((delkaStrany - 1) / 2));
         out.print("*");
         out.print(" ".repeat((delkaStrany - 1) / 2));
         out.println();
         for (int radek = 0; radek < (delkaStrany - 3) / 2; radek++) {
-            nakresliRadek(out, radek);
+            nakreslitRadek(out, radek);
         }
         out.print("*".repeat(delkaStrany));
         out.println();
     }
 
-    private void nakresliRadek(PrintStream out, int radek) {
+    private void nakreslitRadek(PrintStream out, int radek) {
         int prostredek = radek * 2 + 1;
         int vnejsek = ((delkaStrany - 1) / 2) - radek - 1;
         out.print(" ".repeat(vnejsek));
