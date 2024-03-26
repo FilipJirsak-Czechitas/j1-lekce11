@@ -1,5 +1,6 @@
 # Java 1 – lekce 11
 
+
 ## Cvičení
 
 1. Ve skupině v rámci breakoutroomu společně vymyslete, jak by vypadala struktura tříd a jejich základní atributy ve školním informačním systému pro základní
@@ -9,4 +10,4 @@
    abychom je mohli zobrazovat v abecedně setříděném seznamu (např. seznam žáků ve třídě, seznam všech učitelů) – neřešte, jak ten seznam vytvářet či
    reprezentovat, pouze to, co musí splňovat třídy pro uložení žáků, učitelů a ostatních osob, aby to bylo možné. U všech osob také očekávejte
    metodu `getDisplayName()`, která vrátí jméno osoby vhodné pro zobrazení – např. u žáka vrátí jméno a příjmení a za nimi v závorce název třídy.
-1. Implementujte navrženou strukturu tříd pro osoby (v jednodušší variantě, kdy je školní třída uvedena jen jako `String`) jako třídy čo rozhraní v Javě.
+1. Implementujte navrženou strukturu tříd pro osoby (v jednodušší variantě, kdy je školní třída uvedena jen jako `String`) jako třídy či rozhraní v Javě.
